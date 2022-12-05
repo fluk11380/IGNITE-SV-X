@@ -1,3 +1,27 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{ 	Title = "Monday Morning Misery",  	
+
+Text = "VERY OP",
+
+})
+
+game:GetService("StarterGui"):SetCore("SendNotification",{ 	
+
+Title = "Wait 5 Sec....",  	
+
+Text = "Loading...",
+
+})
+
+wait(5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{ 	
+
+Title = "Load!!",  	
+
+Text = "EZ WINN!",
+
+})
+
 local discord = loadstring(game:HttpGet"https://raw.githubusercontent.com/stavratum/lua/main/Discord.lua")()
 local uwuware, connected = loadstring(game:HttpGet'https://raw.githubusercontent.com/OPENCUP/random-texts/main/ui.lua')(), {} do
     local Window = uwuware:CreateWindow'AFC | MMM AP'
